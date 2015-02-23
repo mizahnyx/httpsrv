@@ -1,0 +1,3 @@
+# httpsrv
+
+An experimental example on how to use Cowboy to provide a suitable Websocket backend to Emscripten/Websocket applications such as the Godot Engine HTML5 runtime.
