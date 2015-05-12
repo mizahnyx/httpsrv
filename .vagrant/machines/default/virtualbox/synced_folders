@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/fabianromero/workspace/httpsrv","disabled":false},"/home/vagrant/source":{"guestpath":"/home/vagrant/source","hostpath":"/Users/fabianromero/workspace/httpsrv/source","disabled":false}}}
