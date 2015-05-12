@@ -7,8 +7,8 @@ Vagrant.configure(2) do |config|
      vb.memory = "1024"
    end
    config.vm.provision "shell", inline: <<-SHELL
-     wget http://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc
-     sudo apt-key add erlang_solutions.asc
+     wget http://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb
+     sudo dpkg -i erlang-solutions_1.0_all.deb
      sudo apt-get update
      sudo apt-get -y install erlang rebar git
    SHELL
