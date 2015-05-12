@@ -1,3 +1,11 @@
 # httpsrv
 
 An experimental example on how to use Cowboy to provide a suitable Websocket backend to Emscripten/Websocket applications such as the Godot Engine HTML5 runtime.
+
+to run:
+
+vagrant box add vivid https://cloud-images.ubuntu.com/vagrant/vivid/current/vivid-server-cloudimg-amd64-vagrant-disk1.box
+vagrant up
+vagrant ssh
+cd source
+./httosrv.ssh
